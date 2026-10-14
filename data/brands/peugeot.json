@@ -1,0 +1,509 @@
+{
+  "brand": "peugeot",
+  "products": [
+    {
+      "id": "P-1",
+      "mpn": "P-1",
+      "name": "1989 Peugeot 405 Engine - DOHC (VIN 2, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1989-peugeot-405-dohc-vin-2-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1989-peugeot-405-dohc-vin-2-6th-digit",
+      "category": "engine",
+      "year": "1989",
+      "model": "405 Engine",
+      "description": "Quality used engine for 1989 Peugeot 405. Trim/details: DOHC (VIN 2, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-1",
+      "compatibility": "",
+      "canonicalSlug": "1989-peugeot-405-engine-dohc-vin-2-6th-digit",
+      "slug": "1989-peugeot-405-engine-dohc-vin-2-6th-digit"
+    },
+    {
+      "id": "P-2",
+      "mpn": "P-2",
+      "name": "1990 Peugeot 405 Engine - (SOHC), VIN A (5th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1990-peugeot-405-sohc-vin-a-5th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1990-peugeot-405-sohc-vin-a-5th-digit",
+      "category": "engine",
+      "year": "1990",
+      "model": "405 Engine",
+      "description": "Quality used engine for 1990 Peugeot 405. Trim/details: (SOHC), VIN A (5th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-2",
+      "compatibility": "",
+      "canonicalSlug": "1990-peugeot-405-engine-sohc-vin-a-5th-digit",
+      "slug": "1990-peugeot-405-engine-sohc-vin-a-5th-digit"
+    },
+    {
+      "id": "P-3",
+      "mpn": "P-3",
+      "name": "1991 Peugeot 405 Engine - DOHC, VIN B (5th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1991-peugeot-405-dohc-vin-b-5th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1991-peugeot-405-dohc-vin-b-5th-digit",
+      "category": "engine",
+      "year": "1991",
+      "model": "405 Engine",
+      "description": "Quality used engine for 1991 Peugeot 405. Trim/details: DOHC, VIN B (5th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-3",
+      "compatibility": "",
+      "canonicalSlug": "1991-peugeot-405-engine-dohc-vin-b-5th-digit",
+      "slug": "1991-peugeot-405-engine-dohc-vin-b-5th-digit"
+    },
+    {
+      "id": "P-4",
+      "mpn": "P-4",
+      "name": "1974 Peugeot 504 Engine - diesel",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1974-peugeot-504-diesel.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1974-peugeot-504-diesel",
+      "category": "engine",
+      "year": "1974",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1974 Peugeot 504. Trim/details: diesel. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-4",
+      "compatibility": "",
+      "canonicalSlug": "1974-peugeot-504-engine-diesel",
+      "slug": "1974-peugeot-504-engine-diesel"
+    },
+    {
+      "id": "P-5",
+      "mpn": "P-5",
+      "name": "1975 Peugeot 504 Engine - diesel",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1975-peugeot-504-diesel.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1975-peugeot-504-diesel",
+      "category": "engine",
+      "year": "1975",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1975 Peugeot 504. Trim/details: diesel. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-5",
+      "compatibility": "",
+      "canonicalSlug": "1975-peugeot-504-engine-diesel",
+      "slug": "1975-peugeot-504-engine-diesel"
+    },
+    {
+      "id": "P-6",
+      "mpn": "P-6",
+      "name": "1976 Peugeot 504 Engine - diesel",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1976-peugeot-504-diesel.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1976-peugeot-504-diesel",
+      "category": "engine",
+      "year": "1976",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1976 Peugeot 504. Trim/details: diesel. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-6",
+      "compatibility": "",
+      "canonicalSlug": "1976-peugeot-504-engine-diesel",
+      "slug": "1976-peugeot-504-engine-diesel"
+    },
+    {
+      "id": "P-7",
+      "mpn": "P-7",
+      "name": "1977 Peugeot 504 Engine - diesel",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1977-peugeot-504-diesel.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1977-peugeot-504-diesel",
+      "category": "engine",
+      "year": "1977",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1977 Peugeot 504. Trim/details: diesel. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-7",
+      "compatibility": "",
+      "canonicalSlug": "1977-peugeot-504-engine-diesel",
+      "slug": "1977-peugeot-504-engine-diesel"
+    },
+    {
+      "id": "P-8",
+      "mpn": "P-8",
+      "name": "1978 Peugeot 504 Engine - diesel",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1978-peugeot-504-diesel.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1978-peugeot-504-diesel",
+      "category": "engine",
+      "year": "1978",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1978 Peugeot 504. Trim/details: diesel. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-8",
+      "compatibility": "",
+      "canonicalSlug": "1978-peugeot-504-engine-diesel",
+      "slug": "1978-peugeot-504-engine-diesel"
+    },
+    {
+      "id": "P-9",
+      "mpn": "P-9",
+      "name": "1979 Peugeot 504 Engine - diesel",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1979-peugeot-504-diesel.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1979-peugeot-504-diesel",
+      "category": "engine",
+      "year": "1979",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1979 Peugeot 504. Trim/details: diesel. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-9",
+      "compatibility": "",
+      "canonicalSlug": "1979-peugeot-504-engine-diesel",
+      "slug": "1979-peugeot-504-engine-diesel"
+    },
+    {
+      "id": "P-10",
+      "mpn": "P-10",
+      "name": "1980 Peugeot 504 Engine - Direct",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1980-peugeot-504-direct.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1980-peugeot-504-direct",
+      "category": "engine",
+      "year": "1980",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1980 Peugeot 504. Trim/details: Direct. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-10",
+      "compatibility": "",
+      "canonicalSlug": "1980-peugeot-504-engine-direct",
+      "slug": "1980-peugeot-504-engine-direct"
+    },
+    {
+      "id": "P-11",
+      "mpn": "P-11",
+      "name": "1981 Peugeot 504 Engine - (diesel, VIN 2, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1981-peugeot-504-diesel-vin-2-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1981-peugeot-504-diesel-vin-2-6th-digit",
+      "category": "engine",
+      "year": "1981",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1981 Peugeot 504. Trim/details: (diesel, VIN 2, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-11",
+      "compatibility": "",
+      "canonicalSlug": "1981-peugeot-504-engine-diesel-vin-2-6th-digit",
+      "slug": "1981-peugeot-504-engine-diesel-vin-2-6th-digit"
+    },
+    {
+      "id": "P-12",
+      "mpn": "P-12",
+      "name": "1982 Peugeot 504 Engine - (diesel, VIN 2, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1982-peugeot-504-diesel-vin-2-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1982-peugeot-504-diesel-vin-2-6th-digit",
+      "category": "engine",
+      "year": "1982",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1982 Peugeot 504. Trim/details: (diesel, VIN 2, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-12",
+      "compatibility": "",
+      "canonicalSlug": "1982-peugeot-504-engine-diesel-vin-2-6th-digit",
+      "slug": "1982-peugeot-504-engine-diesel-vin-2-6th-digit"
+    },
+    {
+      "id": "P-13",
+      "mpn": "P-13",
+      "name": "1983 Peugeot 504 Engine - (diesel, VIN 2, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1983-peugeot-504-diesel-vin-2-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1983-peugeot-504-diesel-vin-2-6th-digit",
+      "category": "engine",
+      "year": "1983",
+      "model": "504 Engine",
+      "description": "Quality used engine for 1983 Peugeot 504. Trim/details: (diesel, VIN 2, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-13",
+      "compatibility": "",
+      "canonicalSlug": "1983-peugeot-504-engine-diesel-vin-2-6th-digit",
+      "slug": "1983-peugeot-504-engine-diesel-vin-2-6th-digit"
+    },
+    {
+      "id": "P-14",
+      "mpn": "P-14",
+      "name": "1980 Peugeot 505 Engine - diesel",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1980-peugeot-505-diesel.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1980-peugeot-505-diesel",
+      "category": "engine",
+      "year": "1980",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1980 Peugeot 505. Trim/details: diesel. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-14",
+      "compatibility": "",
+      "canonicalSlug": "1980-peugeot-505-engine-diesel",
+      "slug": "1980-peugeot-505-engine-diesel"
+    },
+    {
+      "id": "P-15",
+      "mpn": "P-15",
+      "name": "1981 Peugeot 505 Engine - diesel (VIN 2, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1981-peugeot-505-diesel-vin-2-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1981-peugeot-505-diesel-vin-2-6th-digit",
+      "category": "engine",
+      "year": "1981",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1981 Peugeot 505. Trim/details: diesel (VIN 2, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-15",
+      "compatibility": "",
+      "canonicalSlug": "1981-peugeot-505-engine-diesel-vin-2-6th-digit",
+      "slug": "1981-peugeot-505-engine-diesel-vin-2-6th-digit"
+    },
+    {
+      "id": "P-16",
+      "mpn": "P-16",
+      "name": "1982 Peugeot 505 Engine - diesel (VIN 2, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1982-peugeot-505-diesel-vin-2-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1982-peugeot-505-diesel-vin-2-6th-digit",
+      "category": "engine",
+      "year": "1982",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1982 Peugeot 505. Trim/details: diesel (VIN 2, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-16",
+      "compatibility": "",
+      "canonicalSlug": "1982-peugeot-505-engine-diesel-vin-2-6th-digit",
+      "slug": "1982-peugeot-505-engine-diesel-vin-2-6th-digit"
+    },
+    {
+      "id": "P-17",
+      "mpn": "P-17",
+      "name": "1983 Peugeot 505 Engine - diesel (VIN 2, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1983-peugeot-505-diesel-vin-2-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1983-peugeot-505-diesel-vin-2-6th-digit",
+      "category": "engine",
+      "year": "1983",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1983 Peugeot 505. Trim/details: diesel (VIN 2, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-17",
+      "compatibility": "",
+      "canonicalSlug": "1983-peugeot-505-engine-diesel-vin-2-6th-digit",
+      "slug": "1983-peugeot-505-engine-diesel-vin-2-6th-digit"
+    },
+    {
+      "id": "P-18",
+      "mpn": "P-18",
+      "name": "1984 Peugeot 505 Engine - gasoline (VIN 1, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1984-peugeot-505-gasoline-vin-1-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1984-peugeot-505-gasoline-vin-1-6th-digit",
+      "category": "engine",
+      "year": "1984",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1984 Peugeot 505. Trim/details: gasoline (VIN 1, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-18",
+      "compatibility": "",
+      "canonicalSlug": "1984-peugeot-505-engine-gasoline-vin-1-6th-digit",
+      "slug": "1984-peugeot-505-engine-gasoline-vin-1-6th-digit"
+    },
+    {
+      "id": "P-19",
+      "mpn": "P-19",
+      "name": "1985 Peugeot 505 Engine - gasoline (VIN 1, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1985-peugeot-505-gasoline-vin-1-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1985-peugeot-505-gasoline-vin-1-6th-digit",
+      "category": "engine",
+      "year": "1985",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1985 Peugeot 505. Trim/details: gasoline (VIN 1, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-19",
+      "compatibility": "",
+      "canonicalSlug": "1985-peugeot-505-engine-gasoline-vin-1-6th-digit",
+      "slug": "1985-peugeot-505-engine-gasoline-vin-1-6th-digit"
+    },
+    {
+      "id": "P-20",
+      "mpn": "P-20",
+      "name": "1986 Peugeot 505 Engine - gasoline (VIN 1, 6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1986-peugeot-505-gasoline-vin-1-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1986-peugeot-505-gasoline-vin-1-6th-digit",
+      "category": "engine",
+      "year": "1986",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1986 Peugeot 505. Trim/details: gasoline (VIN 1, 6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-20",
+      "compatibility": "",
+      "canonicalSlug": "1986-peugeot-505-engine-gasoline-vin-1-6th-digit",
+      "slug": "1986-peugeot-505-engine-gasoline-vin-1-6th-digit"
+    },
+    {
+      "id": "P-21",
+      "mpn": "P-21",
+      "name": "1987 Peugeot 505 Engine - turbo gasoline, VIN 5 (6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1987-peugeot-505-turbo-gasoline-vin-5-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1987-peugeot-505-turbo-gasoline-vin-5-6th-digit",
+      "category": "engine",
+      "year": "1987",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1987 Peugeot 505. Trim/details: turbo gasoline, VIN 5 (6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-21",
+      "compatibility": "",
+      "canonicalSlug": "1987-peugeot-505-engine-turbo-gasoline-vin-5-6th-digit",
+      "slug": "1987-peugeot-505-engine-turbo-gasoline-vin-5-6th-digit"
+    },
+    {
+      "id": "P-22",
+      "mpn": "P-22",
+      "name": "1988 Peugeot 505 Engine - turbo gasoline, VIN 5 (6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1988-peugeot-505-turbo-gasoline-vin-5-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1988-peugeot-505-turbo-gasoline-vin-5-6th-digit",
+      "category": "engine",
+      "year": "1988",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1988 Peugeot 505. Trim/details: turbo gasoline, VIN 5 (6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-22",
+      "compatibility": "",
+      "canonicalSlug": "1988-peugeot-505-engine-turbo-gasoline-vin-5-6th-digit",
+      "slug": "1988-peugeot-505-engine-turbo-gasoline-vin-5-6th-digit"
+    },
+    {
+      "id": "P-23",
+      "mpn": "P-23",
+      "name": "1989 Peugeot 505 Engine - turbo gasoline, VIN 5 (6th digit)",
+      "price": 1782.5,
+      "tiers": {
+        "low": 2103.35,
+        "medium": 1782.5,
+        "high": 1497.3
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1989-peugeot-505-turbo-gasoline-vin-5-6th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1989-peugeot-505-turbo-gasoline-vin-5-6th-digit",
+      "category": "engine",
+      "year": "1989",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1989 Peugeot 505. Trim/details: turbo gasoline, VIN 5 (6th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-23",
+      "compatibility": "",
+      "canonicalSlug": "1989-peugeot-505-engine-turbo-gasoline-vin-5-6th-digit",
+      "slug": "1989-peugeot-505-engine-turbo-gasoline-vin-5-6th-digit"
+    },
+    {
+      "id": "P-24",
+      "mpn": "P-24",
+      "name": "1990 Peugeot 505 Engine - gasoline, 6 cylinder (VIN 9, 5th digit)",
+      "price": 2081.5,
+      "tiers": {
+        "low": 2456.17,
+        "medium": 2081.5,
+        "high": 1748.46
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1990-peugeot-505-gasoline-6-cylinder-vin-9-5th-digit.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1990-peugeot-505-gasoline-6-cylinder-vin-9-5th-digit",
+      "category": "engine",
+      "year": "1990",
+      "model": "505 Engine",
+      "description": "Quality used engine for 1990 Peugeot 505. Trim/details: gasoline, 6 cylinder (VIN 9, 5th digit). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-24",
+      "compatibility": "",
+      "canonicalSlug": "1990-peugeot-505-engine-gasoline-6-cylinder-vin-9-5th-digit",
+      "slug": "1990-peugeot-505-engine-gasoline-6-cylinder-vin-9-5th-digit"
+    }
+  ]
+}
