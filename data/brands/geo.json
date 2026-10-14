@@ -1,0 +1,362 @@
+{
+  "brand": "geo",
+  "products": [
+    {
+      "id": "P-1",
+      "mpn": "P-1",
+      "name": "1993 Geo Storm Engine - DOHC (VIN 8, 8th digit)",
+      "price": 1034,
+      "tiers": {
+        "low": 1116,
+        "medium": 1034,
+        "high": 858
+      },
+      "imageUrl": "https://www.auapw.org/images/engines/1993-geo-storm-engine-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1993-geo-storm-dohc-vin-8-8th-digit",
+      "category": "engine",
+      "year": "1993",
+      "model": "Storm Engine",
+      "description": "Premium quality used engine for 1993 Geo Storm. Complete assembly ready for installation. Configuration: DOHC (VIN 8, 8th digit). 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/engine-1993-geo-storm-dohc-vin-8-8th-digit Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-1",
+      "compatibility": "",
+      "canonicalSlug": "1993-geo-storm-engine-dohc-vin-8-8th-digit",
+      "slug": "1993-geo-storm-engine-dohc-vin-8-8th-digit"
+    },
+    {
+      "id": "P-2",
+      "mpn": "P-2",
+      "name": "1990 Geo Storm Transmission - AT, overdrive",
+      "price": 811,
+      "tiers": {
+        "low": 876,
+        "medium": 811,
+        "high": 673
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1990-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1990-geo-storm-at-overdrive",
+      "category": "transmission",
+      "year": "1990",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1990 Geo Storm. Complete assembly ready for installation. Configuration: AT, overdrive. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1990-geo-storm-at-overdrive Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-2",
+      "compatibility": "",
+      "canonicalSlug": "1990-geo-storm-transmission-at-overdrive",
+      "slug": "1990-geo-storm-transmission-at-overdrive"
+    },
+    {
+      "id": "P-3",
+      "mpn": "P-3",
+      "name": "1990 Geo Storm Transmission - AT, w/o overdrive",
+      "price": 811,
+      "tiers": {
+        "low": 876,
+        "medium": 811,
+        "high": 673
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1990-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1990-geo-storm-at-w/o-overdrive",
+      "category": "transmission",
+      "year": "1990",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1990 Geo Storm. Complete assembly ready for installation. Configuration: AT, w/o overdrive. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1990-geo-storm-at-w/o-overdrive Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-3",
+      "compatibility": "",
+      "canonicalSlug": "1990-geo-storm-transmission-at-w-o-overdrive",
+      "slug": "1990-geo-storm-transmission-at-w-o-overdrive"
+    },
+    {
+      "id": "P-4",
+      "mpn": "P-4",
+      "name": "1990 Geo Storm Transmission - MT, DOHC",
+      "price": 587,
+      "tiers": {
+        "low": 633,
+        "medium": 587,
+        "high": 487
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1990-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1990-geo-storm-mt-dohc",
+      "category": "transmission",
+      "year": "1990",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1990 Geo Storm. Complete assembly ready for installation. Configuration: MT, DOHC. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1990-geo-storm-mt-dohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-4",
+      "compatibility": "",
+      "canonicalSlug": "1990-geo-storm-transmission-mt-dohc",
+      "slug": "1990-geo-storm-transmission-mt-dohc"
+    },
+    {
+      "id": "P-5",
+      "mpn": "P-5",
+      "name": "1990 Geo Storm Transmission - MT, SOHC",
+      "price": 512,
+      "tiers": {
+        "low": 553,
+        "medium": 512,
+        "high": 425
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1990-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1990-geo-storm-mt-sohc",
+      "category": "transmission",
+      "year": "1990",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1990 Geo Storm. Complete assembly ready for installation. Configuration: MT, SOHC. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1990-geo-storm-mt-sohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-5",
+      "compatibility": "",
+      "canonicalSlug": "1990-geo-storm-transmission-mt-sohc",
+      "slug": "1990-geo-storm-transmission-mt-sohc"
+    },
+    {
+      "id": "P-6",
+      "mpn": "P-6",
+      "name": "1991 Geo Storm Transmission - AT, overdrive",
+      "price": 811,
+      "tiers": {
+        "low": 876,
+        "medium": 811,
+        "high": 673
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1991-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1991-geo-storm-at-overdrive",
+      "category": "transmission",
+      "year": "1991",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1991 Geo Storm. Complete assembly ready for installation. Configuration: AT, overdrive. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1991-geo-storm-at-overdrive Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-6",
+      "compatibility": "",
+      "canonicalSlug": "1991-geo-storm-transmission-at-overdrive",
+      "slug": "1991-geo-storm-transmission-at-overdrive"
+    },
+    {
+      "id": "P-7",
+      "mpn": "P-7",
+      "name": "1991 Geo Storm Transmission - AT, w/o overdrive",
+      "price": 811,
+      "tiers": {
+        "low": 876,
+        "medium": 811,
+        "high": 673
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1991-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1991-geo-storm-at-w/o-overdrive",
+      "category": "transmission",
+      "year": "1991",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1991 Geo Storm. Complete assembly ready for installation. Configuration: AT, w/o overdrive. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1991-geo-storm-at-w/o-overdrive Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-7",
+      "compatibility": "",
+      "canonicalSlug": "1991-geo-storm-transmission-at-w-o-overdrive",
+      "slug": "1991-geo-storm-transmission-at-w-o-overdrive"
+    },
+    {
+      "id": "P-8",
+      "mpn": "P-8",
+      "name": "1991 Geo Storm Transmission - MT, DOHC",
+      "price": 587,
+      "tiers": {
+        "low": 633,
+        "medium": 587,
+        "high": 487
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1991-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1991-geo-storm-mt-dohc",
+      "category": "transmission",
+      "year": "1991",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1991 Geo Storm. Complete assembly ready for installation. Configuration: MT, DOHC. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1991-geo-storm-mt-dohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-8",
+      "compatibility": "",
+      "canonicalSlug": "1991-geo-storm-transmission-mt-dohc",
+      "slug": "1991-geo-storm-transmission-mt-dohc"
+    },
+    {
+      "id": "P-9",
+      "mpn": "P-9",
+      "name": "1991 Geo Storm Transmission - MT, SOHC",
+      "price": 512,
+      "tiers": {
+        "low": 553,
+        "medium": 512,
+        "high": 425
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1991-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1991-geo-storm-mt-sohc",
+      "category": "transmission",
+      "year": "1991",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1991 Geo Storm. Complete assembly ready for installation. Configuration: MT, SOHC. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1991-geo-storm-mt-sohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-9",
+      "compatibility": "",
+      "canonicalSlug": "1991-geo-storm-transmission-mt-sohc",
+      "slug": "1991-geo-storm-transmission-mt-sohc"
+    },
+    {
+      "id": "P-10",
+      "mpn": "P-10",
+      "name": "1992 Geo Storm Transmission - MT, SOHC",
+      "price": 512,
+      "tiers": {
+        "low": 553,
+        "medium": 512,
+        "high": 425
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1992-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1992-geo-storm-mt-sohc",
+      "category": "transmission",
+      "year": "1992",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1992 Geo Storm. Complete assembly ready for installation. Configuration: MT, SOHC. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1992-geo-storm-mt-sohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-10",
+      "compatibility": "",
+      "canonicalSlug": "1992-geo-storm-transmission-mt-sohc",
+      "slug": "1992-geo-storm-transmission-mt-sohc"
+    },
+    {
+      "id": "P-11",
+      "mpn": "P-11",
+      "name": "1992 Geo Storm Transmission - AT, 21 bolt pan (DOHC)",
+      "price": 1259,
+      "tiers": {
+        "low": 1360,
+        "medium": 1259,
+        "high": 1045
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1992-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1992-geo-storm-at-21-bolt-pan-dohc",
+      "category": "transmission",
+      "year": "1992",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1992 Geo Storm. Complete assembly ready for installation. Configuration: AT, 21 bolt pan (DOHC). 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1992-geo-storm-at-21-bolt-pan-dohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-11",
+      "compatibility": "",
+      "canonicalSlug": "1992-geo-storm-transmission-at-21-bolt-pan-dohc",
+      "slug": "1992-geo-storm-transmission-at-21-bolt-pan-dohc"
+    },
+    {
+      "id": "P-12",
+      "mpn": "P-12",
+      "name": "1992 Geo Storm Transmission - AT, 16 bolt pan (SOHC)",
+      "price": 886,
+      "tiers": {
+        "low": 956,
+        "medium": 886,
+        "high": 735
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1992-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1992-geo-storm-at-16-bolt-pan-sohc",
+      "category": "transmission",
+      "year": "1992",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1992 Geo Storm. Complete assembly ready for installation. Configuration: AT, 16 bolt pan (SOHC). 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1992-geo-storm-at-16-bolt-pan-sohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-12",
+      "compatibility": "",
+      "canonicalSlug": "1992-geo-storm-transmission-at-16-bolt-pan-sohc",
+      "slug": "1992-geo-storm-transmission-at-16-bolt-pan-sohc"
+    },
+    {
+      "id": "P-13",
+      "mpn": "P-13",
+      "name": "1992 Geo Storm Transmission - MT, DOHC",
+      "price": 811,
+      "tiers": {
+        "low": 876,
+        "medium": 811,
+        "high": 673
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1992-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1992-geo-storm-mt-dohc",
+      "category": "transmission",
+      "year": "1992",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1992 Geo Storm. Complete assembly ready for installation. Configuration: MT, DOHC. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1992-geo-storm-mt-dohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-13",
+      "compatibility": "",
+      "canonicalSlug": "1992-geo-storm-transmission-mt-dohc",
+      "slug": "1992-geo-storm-transmission-mt-dohc"
+    },
+    {
+      "id": "P-14",
+      "mpn": "P-14",
+      "name": "1993 Geo Storm Transmission - MT, SOHC",
+      "price": 512,
+      "tiers": {
+        "low": 553,
+        "medium": 512,
+        "high": 425
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1993-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1993-geo-storm-mt-sohc",
+      "category": "transmission",
+      "year": "1993",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1993 Geo Storm. Complete assembly ready for installation. Configuration: MT, SOHC. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1993-geo-storm-mt-sohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-14",
+      "compatibility": "",
+      "canonicalSlug": "1993-geo-storm-transmission-mt-sohc",
+      "slug": "1993-geo-storm-transmission-mt-sohc"
+    },
+    {
+      "id": "P-15",
+      "mpn": "P-15",
+      "name": "1993 Geo Storm Transmission - AT, 16 bolt pan (SOHC)",
+      "price": 886,
+      "tiers": {
+        "low": 956,
+        "medium": 886,
+        "high": 735
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1993-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1993-geo-storm-at-16-bolt-pan-sohc",
+      "category": "transmission",
+      "year": "1993",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1993 Geo Storm. Complete assembly ready for installation. Configuration: AT, 16 bolt pan (SOHC). 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1993-geo-storm-at-16-bolt-pan-sohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-15",
+      "compatibility": "",
+      "canonicalSlug": "1993-geo-storm-transmission-at-16-bolt-pan-sohc",
+      "slug": "1993-geo-storm-transmission-at-16-bolt-pan-sohc"
+    },
+    {
+      "id": "P-16",
+      "mpn": "P-16",
+      "name": "1993 Geo Storm Transmission - MT, DOHC",
+      "price": 811,
+      "tiers": {
+        "low": 876,
+        "medium": 811,
+        "high": 673
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1993-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1993-geo-storm-mt-dohc",
+      "category": "transmission",
+      "year": "1993",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1993 Geo Storm. Complete assembly ready for installation. Configuration: MT, DOHC. 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1993-geo-storm-mt-dohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-16",
+      "compatibility": "",
+      "canonicalSlug": "1993-geo-storm-transmission-mt-dohc",
+      "slug": "1993-geo-storm-transmission-mt-dohc"
+    },
+    {
+      "id": "P-17",
+      "mpn": "P-17",
+      "name": "1993 Geo Storm Transmission - AT, 21 bolt pan (DOHC)",
+      "price": 1185,
+      "tiers": {
+        "low": 1279,
+        "medium": 1185,
+        "high": 983
+      },
+      "imageUrl": "https://www.auapw.org/images/transmissions/1993-geo-storm-transmission-side.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1993-geo-storm-at-21-bolt-pan-dohc",
+      "category": "transmission",
+      "year": "1993",
+      "model": "Storm Transmission",
+      "description": "Premium quality used transmission for 1993 Geo Storm. Complete assembly ready for installation. Configuration: AT, 21 bolt pan (DOHC). 90-day warranty included. Fast nationwide shipping. Order at: https://www.auapw.org/parts/transmission-1993-geo-storm-at-21-bolt-pan-dohc Price is a reference estimate only and may vary based on mileage, condition, and availability.",
+      "partNumber": "P-17",
+      "compatibility": "",
+      "canonicalSlug": "1993-geo-storm-transmission-at-21-bolt-pan-dohc",
+      "slug": "1993-geo-storm-transmission-at-21-bolt-pan-dohc"
+    }
+  ]
+}

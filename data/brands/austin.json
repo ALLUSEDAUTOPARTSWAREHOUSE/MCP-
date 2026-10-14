@@ -1,0 +1,111 @@
+{
+  "brand": "Austin",
+  "slug": "austin",
+  "products": [
+    {
+      "id": "AU-1",
+      "mpn": "AU-1",
+      "name": "1963 Mini (Austin) Engine - Austin America Mk I (1098cc)",
+      "price": 2530,
+      "tiers": {
+        "low": 2985.4,
+        "medium": 2530,
+        "high": 2125.2
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1963-austin-mini-1098cc.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1963-austin-mini-1098cc",
+      "category": "engine",
+      "year": "1963",
+      "model": "Mini (Austin) Engine",
+      "description": "Quality used engine for 1963 Austin Mini. Trim: Austin America Mk I (1098cc).",
+      "partNumber": "AU-1",
+      "compatibility": "",
+      "canonicalSlug": "1963-mini-austin-engine-austin-america-mk-i-1098cc",
+      "slug": "1963-mini-austin-engine-austin-america-mk-i-1098cc"
+    },
+    {
+      "id": "AU-2",
+      "mpn": "AU-2",
+      "name": "1965 Austin Healey Engine - 3000 Mk III (2912cc)",
+      "price": 3200,
+      "tiers": {
+        "low": 3776,
+        "medium": 3200,
+        "high": 2688
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1965-austin-healey-3000.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1965-austin-healey-3000",
+      "category": "engine",
+      "year": "1965",
+      "model": "Healey Engine",
+      "description": "Quality used engine for 1965 Austin Healey 3000 Mk III.",
+      "partNumber": "AU-2",
+      "compatibility": "",
+      "canonicalSlug": "1965-austin-healey-engine-3000-mk-iii-2912cc",
+      "slug": "1965-austin-healey-engine-3000-mk-iii-2912cc"
+    },
+    {
+      "id": "AU-3",
+      "mpn": "AU-3",
+      "name": "1967 Austin Mini Cooper Transmission - 4-Speed Manual",
+      "price": 890,
+      "tiers": {
+        "low": 1050.2,
+        "medium": 890,
+        "high": 747.6
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/trans-1967-austin-mini-cooper.jpg",
+      "productUrl": "https://www.auapw.org/parts/trans-1967-austin-mini-cooper",
+      "category": "transmission",
+      "year": "1967",
+      "model": "Mini Cooper Transmission",
+      "description": "Quality used 4-speed manual transmission for 1967 Austin Mini Cooper.",
+      "partNumber": "AU-3",
+      "compatibility": "",
+      "canonicalSlug": "1967-austin-mini-cooper-transmission-4-speed-manual",
+      "slug": "1967-austin-mini-cooper-transmission-4-speed-manual"
+    },
+    {
+      "id": "AU-4",
+      "mpn": "AU-4",
+      "name": "1970 Austin America Engine - 1275cc A-Series",
+      "price": 1850,
+      "tiers": {
+        "low": 2183,
+        "medium": 1850,
+        "high": 1554
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1970-austin-america-1275cc.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1970-austin-america-1275cc",
+      "category": "engine",
+      "year": "1970",
+      "model": "America Engine",
+      "description": "Quality used engine for 1970 Austin America. Trim: 1275cc A-Series.",
+      "partNumber": "AU-4",
+      "compatibility": "",
+      "canonicalSlug": "1970-austin-america-engine-1275cc-a-series",
+      "slug": "1970-austin-america-engine-1275cc-a-series"
+    },
+    {
+      "id": "AU-5",
+      "mpn": "AU-5",
+      "name": "1968 Austin Mini Transmission - Automatic 4-Speed",
+      "price": 750,
+      "tiers": {
+        "low": 885,
+        "medium": 750,
+        "high": 630
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/trans-1968-austin-mini-auto.jpg",
+      "productUrl": "https://www.auapw.org/parts/trans-1968-austin-mini-auto",
+      "category": "transmission",
+      "year": "1968",
+      "model": "Mini Transmission",
+      "description": "Quality used automatic transmission for 1968 Austin Mini.",
+      "partNumber": "AU-5",
+      "compatibility": "",
+      "canonicalSlug": "1968-austin-mini-transmission-automatic-4-speed",
+      "slug": "1968-austin-mini-transmission-automatic-4-speed"
+    }
+  ]
+}
