@@ -1,0 +1,551 @@
+{
+  "brand": "opel",
+  "products": [
+    {
+      "id": "P-1",
+      "mpn": "P-1",
+      "name": "1966 Opel Opel Engine - (1.1L), base (low compression)",
+      "price": 1274.2,
+      "tiers": {
+        "low": 1503.56,
+        "medium": 1274.2,
+        "high": 1070.33
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1966-opel-opel-1.1l-base-low-compression.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1966-opel-opel-1.1l-base-low-compression",
+      "category": "engine",
+      "year": "1966",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1966 Opel Opel. Trim/details: (1.1L), base (low compression). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-1",
+      "compatibility": "",
+      "canonicalSlug": "1966-opel-opel-engine-11l-base-low-compression",
+      "slug": "1966-opel-opel-engine-11l-base-low-compression"
+    },
+    {
+      "id": "P-2",
+      "mpn": "P-2",
+      "name": "1967 Opel Opel Engine - (1.1L), base (low compression)",
+      "price": 1274.2,
+      "tiers": {
+        "low": 1503.56,
+        "medium": 1274.2,
+        "high": 1070.33
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1967-opel-opel-1.1l-base-low-compression.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1967-opel-opel-1.1l-base-low-compression",
+      "category": "engine",
+      "year": "1967",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1967 Opel Opel. Trim/details: (1.1L), base (low compression). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-2",
+      "compatibility": "",
+      "canonicalSlug": "1967-opel-opel-engine-11l-base-low-compression",
+      "slug": "1967-opel-opel-engine-11l-base-low-compression"
+    },
+    {
+      "id": "P-3",
+      "mpn": "P-3",
+      "name": "1968 Opel Opel Engine - 1.1L",
+      "price": 1408.75,
+      "tiers": {
+        "low": 1662.32,
+        "medium": 1408.75,
+        "high": 1183.35
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1968-opel-opel-1.1l.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1968-opel-opel-1.1l",
+      "category": "engine",
+      "year": "1968",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1968 Opel Opel. Trim/details: 1.1L. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-3",
+      "compatibility": "",
+      "canonicalSlug": "1968-opel-opel-engine-11l",
+      "slug": "1968-opel-opel-engine-11l"
+    },
+    {
+      "id": "P-4",
+      "mpn": "P-4",
+      "name": "1969 Opel Opel Engine - 1.1L",
+      "price": 1408.75,
+      "tiers": {
+        "low": 1662.32,
+        "medium": 1408.75,
+        "high": 1183.35
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1969-opel-opel-1.1l.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1969-opel-opel-1.1l",
+      "category": "engine",
+      "year": "1969",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1969 Opel Opel. Trim/details: 1.1L. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-4",
+      "compatibility": "",
+      "canonicalSlug": "1969-opel-opel-engine-11l",
+      "slug": "1969-opel-opel-engine-11l"
+    },
+    {
+      "id": "P-5",
+      "mpn": "P-5",
+      "name": "1970 Opel Opel Engine - 1.1L",
+      "price": 1408.75,
+      "tiers": {
+        "low": 1662.32,
+        "medium": 1408.75,
+        "high": 1183.35
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1970-opel-opel-1.1l.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1970-opel-opel-1.1l",
+      "category": "engine",
+      "year": "1970",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1970 Opel Opel. Trim/details: 1.1L. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-5",
+      "compatibility": "",
+      "canonicalSlug": "1970-opel-opel-engine-11l",
+      "slug": "1970-opel-opel-engine-11l"
+    },
+    {
+      "id": "P-6",
+      "mpn": "P-6",
+      "name": "1971 Opel Opel Engine - 1.1L",
+      "price": 1408.75,
+      "tiers": {
+        "low": 1662.32,
+        "medium": 1408.75,
+        "high": 1183.35
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1971-opel-opel-1.1l.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1971-opel-opel-1.1l",
+      "category": "engine",
+      "year": "1971",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1971 Opel Opel. Trim/details: 1.1L. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-6",
+      "compatibility": "",
+      "canonicalSlug": "1971-opel-opel-engine-11l",
+      "slug": "1971-opel-opel-engine-11l"
+    },
+    {
+      "id": "P-7",
+      "mpn": "P-7",
+      "name": "1972 Opel Opel Engine - (1.9L)",
+      "price": 1550.77,
+      "tiers": {
+        "low": 1829.91,
+        "medium": 1550.77,
+        "high": 1302.65
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1972-opel-opel-1.9l.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1972-opel-opel-1.9l",
+      "category": "engine",
+      "year": "1972",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1972 Opel Opel. Trim/details: (1.9L). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-7",
+      "compatibility": "",
+      "canonicalSlug": "1972-opel-opel-engine-19l",
+      "slug": "1972-opel-opel-engine-19l"
+    },
+    {
+      "id": "P-8",
+      "mpn": "P-8",
+      "name": "1973 Opel Opel Engine - (1.9L)",
+      "price": 1550.77,
+      "tiers": {
+        "low": 1829.91,
+        "medium": 1550.77,
+        "high": 1302.65
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1973-opel-opel-1.9l.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1973-opel-opel-1.9l",
+      "category": "engine",
+      "year": "1973",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1973 Opel Opel. Trim/details: (1.9L). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-8",
+      "compatibility": "",
+      "canonicalSlug": "1973-opel-opel-engine-19l",
+      "slug": "1973-opel-opel-engine-19l"
+    },
+    {
+      "id": "P-9",
+      "mpn": "P-9",
+      "name": "1974 Opel Opel Engine - (1.9L)",
+      "price": 1550.77,
+      "tiers": {
+        "low": 1829.91,
+        "medium": 1550.77,
+        "high": 1302.65
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1974-opel-opel-1.9l.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1974-opel-opel-1.9l",
+      "category": "engine",
+      "year": "1974",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1974 Opel Opel. Trim/details: (1.9L). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-9",
+      "compatibility": "",
+      "canonicalSlug": "1974-opel-opel-engine-19l",
+      "slug": "1974-opel-opel-engine-19l"
+    },
+    {
+      "id": "P-10",
+      "mpn": "P-10",
+      "name": "1975 Opel Opel Engine - (1.9L)",
+      "price": 1550.77,
+      "tiers": {
+        "low": 1829.91,
+        "medium": 1550.77,
+        "high": 1302.65
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-1975-opel-opel-1.9l.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-1975-opel-opel-1.9l",
+      "category": "engine",
+      "year": "1975",
+      "model": "Opel Engine",
+      "description": "Quality used engine for 1975 Opel Opel. Trim/details: (1.9L). Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-10",
+      "compatibility": "",
+      "canonicalSlug": "1975-opel-opel-engine-19l",
+      "slug": "1975-opel-opel-engine-19l"
+    },
+    {
+      "id": "P-11",
+      "mpn": "P-11",
+      "name": "1964 Opel Opel Transmission - MT",
+      "price": 960.25,
+      "tiers": {
+        "low": 1133.1,
+        "medium": 960.25,
+        "high": 806.61
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1964-opel-opel-mt.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1964-opel-opel-mt",
+      "category": "transmission",
+      "year": "1964",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1964 Opel Opel. Trim/details: MT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-11",
+      "compatibility": "",
+      "canonicalSlug": "1964-opel-opel-transmission-mt",
+      "slug": "1964-opel-opel-transmission-mt"
+    },
+    {
+      "id": "P-12",
+      "mpn": "P-12",
+      "name": "1965 Opel Opel Transmission - MT",
+      "price": 960.25,
+      "tiers": {
+        "low": 1133.1,
+        "medium": 960.25,
+        "high": 806.61
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1965-opel-opel-mt.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1965-opel-opel-mt",
+      "category": "transmission",
+      "year": "1965",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1965 Opel Opel. Trim/details: MT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-12",
+      "compatibility": "",
+      "canonicalSlug": "1965-opel-opel-transmission-mt",
+      "slug": "1965-opel-opel-transmission-mt"
+    },
+    {
+      "id": "P-13",
+      "mpn": "P-13",
+      "name": "1966 Opel Opel Transmission - MT",
+      "price": 960.25,
+      "tiers": {
+        "low": 1133.1,
+        "medium": 960.25,
+        "high": 806.61
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1966-opel-opel-mt.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1966-opel-opel-mt",
+      "category": "transmission",
+      "year": "1966",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1966 Opel Opel. Trim/details: MT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-13",
+      "compatibility": "",
+      "canonicalSlug": "1966-opel-opel-transmission-mt",
+      "slug": "1966-opel-opel-transmission-mt"
+    },
+    {
+      "id": "P-14",
+      "mpn": "P-14",
+      "name": "1967 Opel Opel Transmission - MT",
+      "price": 960.25,
+      "tiers": {
+        "low": 1133.1,
+        "medium": 960.25,
+        "high": 806.61
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1967-opel-opel-mt.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1967-opel-opel-mt",
+      "category": "transmission",
+      "year": "1967",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1967 Opel Opel. Trim/details: MT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-14",
+      "compatibility": "",
+      "canonicalSlug": "1967-opel-opel-transmission-mt",
+      "slug": "1967-opel-opel-transmission-mt"
+    },
+    {
+      "id": "P-15",
+      "mpn": "P-15",
+      "name": "1968 Opel Opel Transmission - MT, 1.5L",
+      "price": 997.62,
+      "tiers": {
+        "low": 1177.19,
+        "medium": 997.62,
+        "high": 838
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1968-opel-opel-mt-1.5l.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1968-opel-opel-mt-1.5l",
+      "category": "transmission",
+      "year": "1968",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1968 Opel Opel. Trim/details: MT, 1.5L. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-15",
+      "compatibility": "",
+      "canonicalSlug": "1968-opel-opel-transmission-mt-15l",
+      "slug": "1968-opel-opel-transmission-mt-15l"
+    },
+    {
+      "id": "P-16",
+      "mpn": "P-16",
+      "name": "1969 Opel Opel Transmission - AT, 1.1L",
+      "price": 997.62,
+      "tiers": {
+        "low": 1177.19,
+        "medium": 997.62,
+        "high": 838
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1969-opel-opel-at-1.1l.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1969-opel-opel-at-1.1l",
+      "category": "transmission",
+      "year": "1969",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1969 Opel Opel. Trim/details: AT, 1.1L. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-16",
+      "compatibility": "",
+      "canonicalSlug": "1969-opel-opel-transmission-at-11l",
+      "slug": "1969-opel-opel-transmission-at-11l"
+    },
+    {
+      "id": "P-17",
+      "mpn": "P-17",
+      "name": "1970 Opel Opel Transmission - AT, 1.1L",
+      "price": 997.62,
+      "tiers": {
+        "low": 1177.19,
+        "medium": 997.62,
+        "high": 838
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1970-opel-opel-at-1.1l.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1970-opel-opel-at-1.1l",
+      "category": "transmission",
+      "year": "1970",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1970 Opel Opel. Trim/details: AT, 1.1L. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-17",
+      "compatibility": "",
+      "canonicalSlug": "1970-opel-opel-transmission-at-11l",
+      "slug": "1970-opel-opel-transmission-at-11l"
+    },
+    {
+      "id": "P-18",
+      "mpn": "P-18",
+      "name": "1971 Opel Opel Transmission - AT, 1.1L",
+      "price": 997.62,
+      "tiers": {
+        "low": 1177.19,
+        "medium": 997.62,
+        "high": 838
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1971-opel-opel-at-1.1l.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1971-opel-opel-at-1.1l",
+      "category": "transmission",
+      "year": "1971",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1971 Opel Opel. Trim/details: AT, 1.1L. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-18",
+      "compatibility": "",
+      "canonicalSlug": "1971-opel-opel-transmission-at-11l",
+      "slug": "1971-opel-opel-transmission-at-11l"
+    },
+    {
+      "id": "P-19",
+      "mpn": "P-19",
+      "name": "1972 Opel Opel Transmission - AT",
+      "price": 878.02,
+      "tiers": {
+        "low": 1036.06,
+        "medium": 878.02,
+        "high": 737.54
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1972-opel-opel-at.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1972-opel-opel-at",
+      "category": "transmission",
+      "year": "1972",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1972 Opel Opel. Trim/details: AT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-19",
+      "compatibility": "",
+      "canonicalSlug": "1972-opel-opel-transmission-at",
+      "slug": "1972-opel-opel-transmission-at"
+    },
+    {
+      "id": "P-20",
+      "mpn": "P-20",
+      "name": "1973 Opel Opel Transmission - AT",
+      "price": 878.02,
+      "tiers": {
+        "low": 1036.06,
+        "medium": 878.02,
+        "high": 737.54
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1973-opel-opel-at.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1973-opel-opel-at",
+      "category": "transmission",
+      "year": "1973",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1973 Opel Opel. Trim/details: AT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-20",
+      "compatibility": "",
+      "canonicalSlug": "1973-opel-opel-transmission-at",
+      "slug": "1973-opel-opel-transmission-at"
+    },
+    {
+      "id": "P-21",
+      "mpn": "P-21",
+      "name": "1974 Opel Opel Transmission - AT",
+      "price": 878.02,
+      "tiers": {
+        "low": 1036.06,
+        "medium": 878.02,
+        "high": 737.54
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1974-opel-opel-at.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1974-opel-opel-at",
+      "category": "transmission",
+      "year": "1974",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1974 Opel Opel. Trim/details: AT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-21",
+      "compatibility": "",
+      "canonicalSlug": "1974-opel-opel-transmission-at",
+      "slug": "1974-opel-opel-transmission-at"
+    },
+    {
+      "id": "P-22",
+      "mpn": "P-22",
+      "name": "1975 Opel Opel Transmission - AT",
+      "price": 878.02,
+      "tiers": {
+        "low": 1036.06,
+        "medium": 878.02,
+        "high": 737.54
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1975-opel-opel-at.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1975-opel-opel-at",
+      "category": "transmission",
+      "year": "1975",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1975 Opel Opel. Trim/details: AT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-22",
+      "compatibility": "",
+      "canonicalSlug": "1975-opel-opel-transmission-at",
+      "slug": "1975-opel-opel-transmission-at"
+    },
+    {
+      "id": "P-23",
+      "mpn": "P-23",
+      "name": "1976 Opel Opel Transmission - MT, (4 speed), Canada emissions",
+      "price": 848.12,
+      "tiers": {
+        "low": 1000.78,
+        "medium": 848.12,
+        "high": 712.42
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1976-opel-opel-mt-4-speed-canada-emissions.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1976-opel-opel-mt-4-speed-canada-emissions",
+      "category": "transmission",
+      "year": "1976",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1976 Opel Opel. Trim/details: MT, (4 speed), Canada emissions. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-23",
+      "compatibility": "",
+      "canonicalSlug": "1976-opel-opel-transmission-mt-4-speed-canada-emissions",
+      "slug": "1976-opel-opel-transmission-mt-4-speed-canada-emissions"
+    },
+    {
+      "id": "P-24",
+      "mpn": "P-24",
+      "name": "1977 Opel Opel Transmission - AT",
+      "price": 997.62,
+      "tiers": {
+        "low": 1177.19,
+        "medium": 997.62,
+        "high": 838
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1977-opel-opel-at.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1977-opel-opel-at",
+      "category": "transmission",
+      "year": "1977",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1977 Opel Opel. Trim/details: AT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-24",
+      "compatibility": "",
+      "canonicalSlug": "1977-opel-opel-transmission-at",
+      "slug": "1977-opel-opel-transmission-at"
+    },
+    {
+      "id": "P-25",
+      "mpn": "P-25",
+      "name": "1978 Opel Opel Transmission - AT",
+      "price": 997.62,
+      "tiers": {
+        "low": 1177.19,
+        "medium": 997.62,
+        "high": 838
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1978-opel-opel-at.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1978-opel-opel-at",
+      "category": "transmission",
+      "year": "1978",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1978 Opel Opel. Trim/details: AT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-25",
+      "compatibility": "",
+      "canonicalSlug": "1978-opel-opel-transmission-at",
+      "slug": "1978-opel-opel-transmission-at"
+    },
+    {
+      "id": "P-26",
+      "mpn": "P-26",
+      "name": "1979 Opel Opel Transmission - AT",
+      "price": 997.62,
+      "tiers": {
+        "low": 1177.19,
+        "medium": 997.62,
+        "high": 838
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/transmission-1979-opel-opel-at.jpg",
+      "productUrl": "https://www.auapw.org/parts/transmission-1979-opel-opel-at",
+      "category": "transmission",
+      "year": "1979",
+      "model": "Opel Transmission",
+      "description": "Quality used transmission for 1979 Opel Opel. Trim/details: AT. Price includes part listing details; verify fitment before purchase.",
+      "partNumber": "P-26",
+      "compatibility": "",
+      "canonicalSlug": "1979-opel-opel-transmission-at",
+      "slug": "1979-opel-opel-transmission-at"
+    }
+  ]
+}
