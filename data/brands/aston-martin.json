@@ -1,0 +1,90 @@
+{
+  "brand": "Aston Martin",
+  "slug": "aston-martin",
+  "products": [
+    {
+      "id": "AS-1",
+      "mpn": "AS-1",
+      "name": "2005 Aston Martin DB9 Engine - 6.0L V12",
+      "price": 12500,
+      "tiers": {
+        "low": 14750,
+        "medium": 12500,
+        "high": 10500
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-2005-aston-martin-db9-v12.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-2005-aston-martin-db9-v12",
+      "category": "engine",
+      "year": "2005",
+      "model": "DB9 Engine",
+      "description": "Quality used 6.0L V12 engine for 2005 Aston Martin DB9.",
+      "partNumber": "AS-1",
+      "compatibility": "",
+      "canonicalSlug": "2005-aston-martin-db9-engine-6-0l-v12",
+      "slug": "2005-aston-martin-db9-engine-6-0l-v12"
+    },
+    {
+      "id": "AS-2",
+      "mpn": "AS-2",
+      "name": "2008 Aston Martin Vantage Engine - 4.3L V8",
+      "price": 9800,
+      "tiers": {
+        "low": 11564,
+        "medium": 9800,
+        "high": 8232
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-2008-aston-martin-vantage-v8.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-2008-aston-martin-vantage-v8",
+      "category": "engine",
+      "year": "2008",
+      "model": "Vantage Engine",
+      "description": "Quality used 4.3L V8 engine for 2008 Aston Martin V8 Vantage.",
+      "partNumber": "AS-2",
+      "compatibility": "",
+      "canonicalSlug": "2008-aston-martin-vantage-engine-4-3l-v8",
+      "slug": "2008-aston-martin-vantage-engine-4-3l-v8"
+    },
+    {
+      "id": "AS-3",
+      "mpn": "AS-3",
+      "name": "2006 Aston Martin DB9 Transmission - 6-Speed Automatic",
+      "price": 5400,
+      "tiers": {
+        "low": 6372,
+        "medium": 5400,
+        "high": 4536
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/trans-2006-aston-martin-db9-auto.jpg",
+      "productUrl": "https://www.auapw.org/parts/trans-2006-aston-martin-db9-auto",
+      "category": "transmission",
+      "year": "2006",
+      "model": "DB9 Transmission",
+      "description": "Quality used 6-speed automatic transmission for 2006 Aston Martin DB9.",
+      "partNumber": "AS-3",
+      "compatibility": "",
+      "canonicalSlug": "2006-aston-martin-db9-transmission-6-speed-automatic",
+      "slug": "2006-aston-martin-db9-transmission-6-speed-automatic"
+    },
+    {
+      "id": "AS-4",
+      "mpn": "AS-4",
+      "name": "2010 Aston Martin Rapide Engine - 6.0L V12 470HP",
+      "price": 15200,
+      "tiers": {
+        "low": 17936,
+        "medium": 15200,
+        "high": 12768
+      },
+      "imageUrl": "https://www.auapw.org/images/parts/engine-2010-aston-martin-rapide-v12.jpg",
+      "productUrl": "https://www.auapw.org/parts/engine-2010-aston-martin-rapide-v12",
+      "category": "engine",
+      "year": "2010",
+      "model": "Rapide Engine",
+      "description": "Quality used 6.0L V12 engine for 2010 Aston Martin Rapide.",
+      "partNumber": "AS-4",
+      "compatibility": "",
+      "canonicalSlug": "2010-aston-martin-rapide-engine-6-0l-v12-470hp",
+      "slug": "2010-aston-martin-rapide-engine-6-0l-v12-470hp"
+    }
+  ]
+}
