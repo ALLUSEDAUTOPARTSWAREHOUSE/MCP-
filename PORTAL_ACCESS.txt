@@ -1,0 +1,212 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║              AUAPW ENTERPRISE PLATFORM - PORTAL ACCESS GUIDE                ║
+║                                                                            ║
+║                         Phase 2 Implementation Complete                     ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ ADMIN PORTAL - SUPERADMIN ACCESS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+URL:      http://localhost:3000/admin/login
+          https://your-domain.com/admin/login (production)
+
+LOGIN:    Email:    admin@auapw.com
+          Password: AUAPWAdmin123!
+
+DASHBOARD: http://localhost:3000/admin/dashboard
+
+FEATURES:
+  ✓ Live KPI Dashboard (Daily Revenue, Orders, Approval Rate, etc.)
+  ✓ Real-time Analytics (Fraud Rate, Chargeback Rate, Customer Satisfaction)
+  ✓ Top Selling Categories & Products
+  ✓ Top Customers by Revenue
+  ✓ Recent Orders Status
+  ✓ Inventory Turnover Metrics
+  ✓ Admin Settings & Profile Management
+  ✓ Secure Logout
+
+API ACCESS:
+  POST /api/admin/auth/login
+    Body: { username: "admin@auapw.com", password: "AUAPWAdmin123!" }
+    
+  GET /api/admin/kpis?period=today|week|month|year
+    Header: Authorization: Bearer {token}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ CUSTOMER PORTAL - USER AREA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+URL:      http://localhost:3000/customer/login
+          https://your-domain.com/customer/login (production)
+
+DEMO LOGIN:
+          Email:    demo@auapw.com
+          Password: Password123
+
+          OR Create New Account (Signup available)
+
+DASHBOARD: http://localhost:3000/customer/dashboard
+
+FEATURES:
+  ✓ Account Overview (Total Orders, Total Spent, Wishlist Items)
+  ✓ Order History & Tracking
+  ✓ Real-time Order Status Updates
+  ✓ Shipment Tracking Numbers
+  ✓ Wishlist Management
+  ✓ Saved Vehicles
+  ✓ Account Settings & Profile
+  ✓ Notification Preferences
+  ✓ Secure Logout
+
+CUSTOMER TABS:
+  • Overview    - Dashboard snapshot
+  • Orders      - Full order history with tracking
+  • Wishlist    - Saved parts and vehicles
+  • Settings    - Account management
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ BACKEND INFRASTRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NOTIFICATION SYSTEM:
+  Endpoint: POST /api/notifications/send
+  
+  Supports 13+ Notification Types:
+    ✓ New Customer Sign-up
+    ✓ New Order Received
+    ✓ Payment Success
+    ✓ Payment Failure
+    ✓ High-Risk Order Alert
+    ✓ Chargeback Alert
+    ✓ Refund Notification
+    ✓ Contact Form Submission
+    ✓ Quote Request
+    ✓ Support Ticket Created
+    ✓ Shipment Updates
+    ✓ Daily Business Report
+    ✓ Weekly Executive Report
+
+  Delivery Channels:
+    • Email (via Resend)
+    • Microsoft Teams
+    • SMS (Twilio - optional)
+
+  Priority Levels:
+    • Low, Normal, High, Critical
+
+EXAMPLE NOTIFICATION:
+  POST /api/notifications/send
+  Header: Authorization: Bearer {admin_token}
+  Body: {
+    "type": "new_order",
+    "recipient": ["admin@auapw.com", "sales@auapw.com"],
+    "subject": "New Order Received",
+    "data": {
+      "orderNumber": "AUA-2024-0001",
+      "customerName": "John Doe",
+      "amount": 2450.50
+    },
+    "sendEmail": true,
+    "sendTeams": true,
+    "priority": "high"
+  }
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ KPI METRICS DISPLAYED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FINANCIAL METRICS:
+  • Daily Revenue
+  • Total Orders
+  • Average Order Value
+  • Gross Profit
+  • Net Profit
+
+PERFORMANCE METRICS:
+  • Approval Rate (%)
+  • Fraud Rate (%)
+  • Chargeback Rate (%)
+  • Refund Rate (%)
+  • Customer Satisfaction (rating)
+
+OPERATIONAL METRICS:
+  • Average Response Time (hours)
+  • Average Shipping Time (days)
+  • Inventory Turnover
+
+CUSTOMER INSIGHTS:
+  • Top Selling Categories
+  • Top Customers by Revenue
+  • Recent Order Status
+  • Customer Lifetime Value
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ ENVIRONMENT SETUP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Required Environment Variables (.env.local):
+
+  # Admin Credentials
+  ADMIN_EMAIL=admin@auapw.com
+  ADMIN_PASSWORD=AUAPWAdmin123!
+
+  # Database
+  DATABASE_URL=postgresql://user:password@host:5432/auapw
+
+  # Email Service (Resend)
+  RESEND_API_KEY=your_resend_api_key_here
+
+  # Microsoft Teams (Internal Notifications)
+  TEAMS_WEBHOOK_URL=https://outlook.webhook.office.com/...
+
+  # Payment Gateway (Stripe)
+  STRIPE_SECRET_KEY=sk_test_...
+  STRIPE_PUBLIC_KEY=pk_test_...
+
+  # Fraud Detection
+  SIGNIFYD_API_KEY=your_signifyd_key
+  SIFT_API_KEY=your_sift_key
+
+  # CRM Integration
+  HUBSPOT_API_KEY=your_hubspot_key
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ QUICK START COMMANDS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  # Install dependencies
+  npm install
+
+  # Setup environment variables
+  cp .env.example .env.local
+
+  # Run database migrations
+  npm run db:migrate
+
+  # Start development server
+  npm run dev
+
+  # Build for production
+  npm run build
+
+  # Start production server
+  npm start
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ CONTACT & SUPPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Email:    support@auapw.com
+Phone:    (888) 854-8681
+Hours:    7 days a week, 24-hour response time
+Address:  508 South Elm Street, Suite 105
+          Denton, Texas 76201
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+For detailed documentation, see ADMIN_SETUP.md
+
+Version: 2.0 | Last Updated: July 28, 2026 | Status: Production Ready
+
+╚════════════════════════════════════════════════════════════════════════════╝
