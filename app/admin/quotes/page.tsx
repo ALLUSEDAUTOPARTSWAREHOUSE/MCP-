@@ -1,0 +1,53 @@
+import { redirect } from "next/navigation"
+import { getAdminSession } from "@/lib/admin-auth"
+import { QUOTE_STATUSES, countByStatus, listQuoteLeads } from "@/lib/followup"
+import { FollowupFilters } from "@/components/admin/followup-filters"
+import { QuoteLeadCard } from "@/components/admin/quote-lead-card"
+
+export const dynamic = "force-dynamic"
+export const metadata = { title: "Quote Requests | AUAPW Admin", robots: { index: false } }
+
+export default async function AdminQuotesPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ status?: string; q?: string }>
+}) {
+  if (!(await getAdminSession())) redirect("/admin/login")
+
+  const { status: rawStatus, q } = await searchParams
+  const status = QUOTE_STATUSES.find((s) => s === rawStatus)
+  const query = q?.trim().slice(0, 100) || undefined
+  const [leads, counts] = await Promise.all([listQuoteLeads(status, query), countByStatus("leads")])
+
+  return (
+    <div className="mx-auto flex max-w-6xl flex-col gap-6">
+      <header>
+        <h1 className="text-2xl font-bold text-foreground">Quote Requests</h1>
+        <p className="text-sm text-muted-foreground">
+          Every quote submitted on the website. Call the customer, then update the status and notes.
+        </p>
+      </header>
+
+      <FollowupFilters
+        basePath="/admin/quotes"
+        statuses={QUOTE_STATUSES}
+        counts={counts}
+        activeStatus={status}
+        query={query}
+        searchPlaceholder="Search name, phone, email, make…"
+      />
+
+      {leads.length === 0 ? (
+        <p className="rounded-lg border border-dashed border-border p-10 text-center text-sm text-muted-foreground">
+          No quote requests {status ? `with status "${status}"` : "yet"}.
+        </p>
+      ) : (
+        <div className="flex flex-col gap-4">
+          {leads.map((lead) => (
+            <QuoteLeadCard key={lead.id} lead={lead} statuses={QUOTE_STATUSES} />
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
