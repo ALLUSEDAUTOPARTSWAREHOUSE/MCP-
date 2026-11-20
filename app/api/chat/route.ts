@@ -14,6 +14,7 @@ import {
   markReadBy,
 } from "@/lib/live-chat"
 import { notifyNewChat } from "@/lib/followup-notify"
+import { flushPostHogAiTelemetry } from "@/instrumentation"
 
 const GUEST_ID_RE = /^[0-9a-f-]{36}$/i
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 30
@@ -75,7 +76,7 @@ export async function POST(req: NextRequest) {
 
   try {
     if (!(await hasRecentHumanReply(result.conversationId))) {
-      const reply = await generateChatReply(await listMessages(result.conversationId))
+      const reply = await generateChatReply(await listMessages(result.conversationId), result.conversationId)
       if (reply) await addBotReply(result.conversationId, reply)
     }
   } catch (err) {
@@ -84,6 +85,8 @@ export async function POST(req: NextRequest) {
       result.conversationId,
       `Thanks for your message! A parts specialist will reply here shortly. For faster help, call ${PHONE_DISPLAY}.`,
     ).catch(() => {})
+  } finally {
+    after(flushPostHogAiTelemetry)
   }
 
   const res = NextResponse.json({ ok: true, conversationId: result.conversationId })

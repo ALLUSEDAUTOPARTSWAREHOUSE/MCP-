@@ -1,4 +1,6 @@
 import { createAgentUIStreamResponse } from "ai"
+import { after } from "next/server"
+import { flushPostHogAiTelemetry } from "@/instrumentation"
 import { getAdminSession } from "@/lib/admin-auth"
 import { adminAssistant } from "@/lib/admin-assistant"
 
@@ -17,6 +19,7 @@ export async function POST(request: Request) {
     return Response.json({ error: "Invalid request" }, { status: 400 })
   }
 
+  after(flushPostHogAiTelemetry)
   return createAgentUIStreamResponse({
     agent: adminAssistant,
     uiMessages: messages.slice(-40),

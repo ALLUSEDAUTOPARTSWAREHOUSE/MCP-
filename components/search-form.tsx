@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation"
 import { CAR_MAKES, CAR_MODELS, PART_CATEGORIES, YEARS, US_STATES } from "@/lib/data"
 import { Search, Phone, MessageSquare, AlertCircle } from "lucide-react"
 import { getPartsSearchUrl } from "@/lib/parts-search-routing"
+import posthog from "posthog-js"
 
 interface SearchFormProps {
   compact?: boolean
@@ -43,6 +44,13 @@ export function SearchForm({ compact = false }: SearchFormProps) {
     if (zipErr) return
 
     const location = [city.trim(), state].filter(Boolean).join(", ")
+    posthog.capture("parts_search_submitted", {
+      vehicle_year: year || undefined,
+      vehicle_make: make,
+      vehicle_model: model || undefined,
+      part_type: part || undefined,
+      form_variant: compact ? "compact" : "full",
+    })
     router.push(getPartsSearchUrl({
       year,
       make,

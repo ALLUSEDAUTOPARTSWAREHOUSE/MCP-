@@ -2,6 +2,7 @@
 
 import { useEffect } from "react"
 import { AlertTriangle, RefreshCw, Home } from "lucide-react"
+import posthog from "posthog-js"
 
 interface ErrorPageProps {
   error: Error & { digest?: string }
@@ -10,6 +11,7 @@ interface ErrorPageProps {
 
 export default function ErrorPage({ error, reset }: ErrorPageProps) {
   useEffect(() => {
+    posthog.captureException(error)
     // Log the error to an error reporting service in production
     console.error("[AUAPW Error Page]", error)
   }, [error])

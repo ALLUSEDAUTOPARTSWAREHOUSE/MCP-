@@ -7,6 +7,7 @@ import { Sparkles, Search, Loader2, ArrowRight, Tag } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import type { CatalogHit } from "@/lib/ai-catalog"
+import posthog from "posthog-js"
 
 interface SmartSearchResponse {
   filters: {
@@ -51,6 +52,14 @@ export function SmartSearch() {
       if (!res.ok) throw new Error("Search failed")
       const json = (await res.json()) as SmartSearchResponse
       setData(json)
+      posthog.capture("smart_search_completed", {
+        result_count: json.results.length,
+        needs_make: Boolean(json.needsMake),
+        vehicle_make: json.filters.make ?? undefined,
+        vehicle_year: json.filters.year ?? undefined,
+        part_category: json.filters.category ?? undefined,
+        has_price_limit: json.filters.maxPrice !== null,
+      })
     } catch {
       setError("Sorry, the search could not be completed. Please try again.")
       setData(null)

@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { CAR_MAKES, CAR_MODELS, YEARS } from "@/lib/data"
 import { Phone, AlertCircle, CheckCircle2, Mail, Loader2 } from "lucide-react"
+import posthog from "posthog-js"
 
 const CONTACT_EMAIL = "auapworld@gmail.com"
 const PHONE_DISPLAY = "(708) 896-2383"
@@ -74,6 +75,14 @@ export function QuoteForm({ defaultPart = "", compact = false }: QuoteFormProps)
             : "No email address was provided, so the email service did not accept the confirmation email. A parts specialist will still call you.",
       )
       setSuccess(true)
+      posthog.capture("quote_requested", {
+        part_type: part || undefined,
+        vehicle_make: make,
+        vehicle_model: model || undefined,
+        vehicle_year: year || undefined,
+        drivetrain: option || undefined,
+        form_variant: compact ? "compact" : "full",
+      })
     } catch {
       setError(`Network error. Please call us at ${PHONE_DISPLAY}.`)
     } finally {

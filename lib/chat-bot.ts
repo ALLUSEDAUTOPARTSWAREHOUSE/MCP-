@@ -34,7 +34,7 @@ const tools = {
   }),
 }
 
-export async function generateChatReply(history: ChatMessage[]): Promise<string | null> {
+export async function generateChatReply(history: ChatMessage[], conversationId: string): Promise<string | null> {
   const messages: ModelMessage[] = history.slice(-20).map((m) => ({
     role: m.sender === "customer" ? "user" : "assistant",
     content: m.body,
@@ -46,6 +46,20 @@ export async function generateChatReply(history: ChatMessage[]): Promise<string 
     tools,
     stopWhen: isStepCount(4),
     abortSignal: AbortSignal.timeout(25_000),
+    runtimeContext: {
+      sessionId: conversationId,
+      traceName: "live_chat_reply",
+    },
+    telemetry: {
+      isEnabled: true,
+      functionId: "live_chat_reply",
+      recordInputs: true,
+      recordOutputs: true,
+      includeRuntimeContext: {
+        sessionId: true,
+        traceName: true,
+      },
+    },
   })
   const reply = text.trim()
   return reply ? reply.slice(0, 2000) : null
