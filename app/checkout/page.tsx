@@ -16,6 +16,7 @@ import { StripeCardPayment } from '@/components/checkout/stripe-card-payment'
 import { GoogleCustomerReviewsOptIn } from '@/components/google-customer-reviews'
 import { CheckoutTerms } from '@/components/checkout/checkout-terms'
 import { useRouter } from 'next/navigation'
+import posthog from 'posthog-js'
 
 interface PaymentGateway {
   id: string
@@ -132,6 +133,11 @@ export default function CheckoutPage() {
       return
     }
     setError(null)
+    posthog.capture('checkout_shipping_completed', {
+      checkout_type: isGuest ? 'guest' : 'account',
+      item_count: items.reduce((count, item) => count + item.quantity, 0),
+      cart_type: isReservationCart ? 'reservation' : 'purchase',
+    })
     setStep('payment')
   }
 
@@ -167,6 +173,12 @@ export default function CheckoutPage() {
         return
       }
       setPlacedOrder({ orderNumber: data.orderNumber, totalAmount: data.totalAmount, reserved: isReservationCart, emailStatus: data.emailStatus })
+      posthog.capture('order_placed', {
+        order_type: isReservationCart ? 'reservation' : 'purchase',
+        item_count: items.reduce((count, item) => count + item.quantity, 0),
+        payment_method: isReservationCart ? undefined : selectedGateway ?? undefined,
+        total_amount: data.totalAmount,
+      })
       clearCart()
       setStep('confirmation')
     } catch {
@@ -177,6 +189,12 @@ export default function CheckoutPage() {
   }
 
   const handleStripePaid = (result: { orderNumber: string; totalAmount: number; emailStatus?: { teamNotificationAccepted?: boolean; customerConfirmationAccepted?: boolean } | null }) => {
+    posthog.capture('order_placed', {
+      order_type: 'purchase',
+      item_count: items.reduce((count, item) => count + item.quantity, 0),
+      payment_method: 'stripe',
+      total_amount: result.totalAmount,
+    })
     setPaymentConfirmed(true)
     setPlacedOrder(result)
     clearCart()
@@ -265,6 +283,7 @@ export default function CheckoutPage() {
                 </Link>
                 <Button
                   onClick={() => {
+                    posthog.capture('checkout_guest_selected')
                     setIsGuest(true)
                     setStep('shipping')
                   }}

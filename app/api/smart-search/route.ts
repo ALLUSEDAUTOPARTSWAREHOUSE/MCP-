@@ -1,5 +1,8 @@
 import { generateObject } from "ai"
+import { SeverityNumber } from "@opentelemetry/api-logs"
+import { after } from "next/server"
 import { z } from "zod"
+import { flushPostHogAiTelemetry, flushPostHogLogs, posthogLogsLogger } from "@/instrumentation"
 import { searchCatalogDetailed, getCatalogFacets } from "@/lib/ai-catalog"
 
 export const maxDuration = 30
@@ -29,6 +32,8 @@ export async function POST(req: Request) {
   }
 
   // Use the model to translate natural language into structured search filters.
+  after(flushPostHogAiTelemetry)
+  after(flushPostHogLogs)
   const { object: filters } = await generateObject({
     model: "openai/gpt-4o-mini",
     schema: filterSchema,
@@ -37,6 +42,12 @@ Only use makes from: ${makes.join(", ")}. Only use categories from: ${categories
 If the make is not stated but the model clearly identifies it (e.g. Camry → Toyota), fill in the make.
 If a field is not mentioned, set it to null. Keep the "query" field to the essential part keywords.`,
     prompt: query,
+    telemetry: {
+      isEnabled: true,
+      functionId: "smart_search_filters",
+      recordInputs: true,
+      recordOutputs: true,
+    },
   })
 
   const { make, hits } = searchCatalogDetailed({
@@ -47,6 +58,17 @@ If a field is not mentioned, set it to null. Keep the "query" field to the essen
     category: filters.category ?? undefined,
     maxPrice: filters.maxPrice ?? undefined,
     limit: 24,
+  })
+
+  posthogLogsLogger?.emit({
+    body: "smart_search_completed",
+    severityNumber: SeverityNumber.INFO,
+    attributes: {
+      endpoint: "/api/smart-search",
+      result_count: hits.length,
+      resolved_make: Boolean(make ?? filters.make),
+      resolved_category: Boolean(filters.category),
+    },
   })
 
   return Response.json({

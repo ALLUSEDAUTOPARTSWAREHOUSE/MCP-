@@ -9,6 +9,7 @@ import { Navbar } from '@/components/navbar'
 import { Footer } from '@/components/footer'
 
 import { BrandLogosSection } from '@/components/brand-logos'
+import posthog from 'posthog-js'
 
 export default function CartPage() {
   const items = useCartStore((state) => state.items)
@@ -168,7 +169,15 @@ export default function CartPage() {
                     </div>
                   </div>
 
-                  <Link href="/checkout" className="w-full">
+                  <Link
+                    href="/checkout"
+                    className="w-full"
+                    onClick={() => posthog.capture('checkout_started', {
+                      item_count: items.reduce((count, item) => count + item.quantity, 0),
+                      cart_type: isReservationCart ? 'reservation' : 'purchase',
+                      cart_value: finalTotal,
+                    })}
+                  >
                     <button className="auapw-btn auapw-btn-blue w-full auapw-btn-lg">
                       Proceed to Checkout
                     </button>

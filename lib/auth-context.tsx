@@ -1,6 +1,7 @@
 'use client'
 
-import React, { createContext, useContext, useEffect } from 'react'
+import React, { createContext, useContext, useEffect, useRef } from 'react'
+import posthog from 'posthog-js'
 import { authClient } from '@/lib/auth-client'
 
 export interface User {
@@ -33,6 +34,31 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     name: data.user.name,
     createdAt: new Date(data.user.createdAt).getTime(),
   } : null
+  const identifiedUserId = useRef<string | null>(null)
+
+  useEffect(() => {
+    if (isPending) return
+
+    if (user) {
+      if (identifiedUserId.current && identifiedUserId.current !== user.id) {
+        posthog.reset()
+      }
+
+      if (identifiedUserId.current !== user.id) {
+        posthog.identify(user.id, {
+          email: user.email,
+          name: user.name,
+        })
+        identifiedUserId.current = user.id
+      }
+      return
+    }
+
+    if (identifiedUserId.current) {
+      posthog.reset()
+      identifiedUserId.current = null
+    }
+  }, [isPending, user])
 
   async function login(email: string, password: string) {
     const result = await authClient.signIn.email({ email, password })

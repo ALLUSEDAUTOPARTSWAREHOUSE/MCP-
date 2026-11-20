@@ -1,6 +1,7 @@
-import { NextResponse, type NextRequest } from 'next/server'
+import { after, NextResponse, type NextRequest } from 'next/server'
 import { generateText } from 'ai'
 import { z } from 'zod'
+import { flushPostHogAiTelemetry } from '@/instrumentation'
 import { getAdminSession } from '@/lib/admin-auth'
 
 const requestSchema = z.object({
@@ -29,6 +30,20 @@ export async function POST(req: NextRequest) {
       messages: parsed.data.messages,
       maxOutputTokens: 1000,
       abortSignal: AbortSignal.timeout(25_000),
+      runtimeContext: {
+        sessionId: `process-${process.pid}`,
+        traceName: 'admin_ai_chat',
+      },
+      telemetry: {
+        isEnabled: true,
+        functionId: 'admin_ai_chat',
+        recordInputs: true,
+        recordOutputs: true,
+        includeRuntimeContext: {
+          sessionId: true,
+          traceName: true,
+        },
+      },
     })
     if (!text.trim()) throw new Error('Empty AI response')
     return NextResponse.json({ reply: text.trim().slice(0, 4000) })
@@ -42,5 +57,7 @@ export async function POST(req: NextRequest) {
       : status === 429 ? 'AI is busy or its usage limit was reached. Please wait and retry.'
       : 'AI chat is temporarily unavailable. Please try again.'
     return NextResponse.json({ error: message }, { status: 503 })
+  } finally {
+    after(flushPostHogAiTelemetry)
   }
 }
